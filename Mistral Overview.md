@@ -4,7 +4,11 @@ Mistral AI is an artificial intelligence startup that makes open source large la
 
 # Model Offerings
 
-## Mistral 7B
+## Open-sourced models
+
+### Mistral 7B
 - First Mistral model
 - Outperforms Llama models with similar and slightly greater sizes
 - Only requires 1 GPU
+
+
