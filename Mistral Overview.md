@@ -34,6 +34,8 @@ The following models can be leveraged with no restrictions. They can also be lev
 ![image](https://github.com/user-attachments/assets/4b8193a0-d413-4c2e-8af9-62969e9491f6)
 ![image](https://github.com/user-attachments/assets/eea15608-fd43-4ecf-98da-94cd52a958d8)
 ![image](https://github.com/user-attachments/assets/84e4536b-a021-40b6-a6e4-cbf04454fd9f)
+![image](https://github.com/user-attachments/assets/64201940-b1cd-4770-942b-c088483584bb)
+
 
 # Le Chat
 - Chat interface to interact directly with Mistral Models
