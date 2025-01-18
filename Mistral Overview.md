@@ -29,3 +29,8 @@ The following models can be leveraged with no restrictions. They can also be lev
     - Its precise instruction-following enables developers to design their moderation policies
     - It is natively capable of function calling. This, along with constrained output model, implemented on La Plateforme, enables application development and tech stack modernization at scale
 - Lastly, Mistral offers an embedding model that can be used for many use cases such as clustering and classification. 
+
+# Le Chat
+- Chat interface to interact directly with Mistral Models
+- <http://chat.mistral.ai>
+- Free to use   
