@@ -11,4 +11,9 @@ Mistral AI is an artificial intelligence startup that makes open source large la
 - Outperforms Llama models with similar and slightly greater sizes
 - Only requires 1 GPU
 
-
+### Mistral 8X7B
+- Sparse mixture of expert model (SMoE model)
+- Based on Transformer architecture
+- Model has 46B parameters but only requires 12.9B for inference
+- Better performance for fast inference
+- Outperforms LLaMa 2 (70B params) and GPT-3.5 in most benchmarks with 8X faster inference than LLaMa 2
