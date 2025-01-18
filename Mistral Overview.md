@@ -5,6 +5,7 @@ Mistral AI is an artificial intelligence startup that makes open source large la
 # Model Offerings
 
 ## Open-sourced models
+The following models can be leveraged with no restrictions. They can also be leveraged for commercial use.
 
 ### Mistral 7B
 - First Mistral model
