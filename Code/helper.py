@@ -6,41 +6,55 @@ from mistralai.models.chat_completion import ChatMessage
 
 
 
-api_key = None
-dlai_endpoint = None
+api_key = "ePMByfktIUoCrdndNwwmbY1e8c9mzq8h"
 client = None
 
 def load_env():
     _ = load_dotenv(find_dotenv())
 
-def load_mistral_api_key(ret_key=False):
-    load_env()
-    global api_key
-    global dlai_endpoint
-    api_key = os.getenv("MISTRAL_API_KEY")
-    dlai_endpoint = os.getenv("DLAI_MISTRAL_API_ENDPOINT")
-
-    global client
-    client = MistralClient(api_key=api_key, endpoint=dlai_endpoint)
-    
-    if ret_key:
-        return api_key, dlai_endpoint
-
 def mistral(user_message, 
             model="mistral-small-latest",
             is_json=False):
-    client = MistralClient(api_key=api_key, endpoint=dlai_endpoint)
-    messages = [ChatMessage(role="user", content=user_message)]
+    
+    # client = MistralClient(api_key=api_key, endpoint=dlai_endpoint)
+    #client = MistralClient(api_key=api_key)
+    #messages = [ChatMessage(role="user", content=user_message)]
+
+   # messages = [
+   #     {
+   #         "role": "user",
+   #         "content": user_message,
+    #    },
+   # ]
+
+
+
+    api_key = "ePMByfktIUoCrdndNwwmbY1e8c9mzq8h"
+    model = "mistral-large-latest"
+
+    client = MistralClient(api_key=api_key)
 
     if is_json:
         chat_response = client.chat(
-            model=model, 
-            messages=messages,
-            response_format={"type": "json_object"})
+        model= model,
+        response_format={"type": "json_object"},
+        messages = [
+            {
+                "role": "user",
+                "content": user_message,
+            },
+        ]
+    )
     else:
         chat_response = client.chat(
-            model=model, 
-            messages=messages)
+        model= model,
+        messages = [
+            {
+                "role": "user",
+                "content": user_message,
+            },
+        ]
+    )
 
     return chat_response.choices[0].message.content
 
@@ -56,6 +70,7 @@ def get_text_embedding(txt):
 import requests
 from bs4 import BeautifulSoup
 import re
+
 def get_web_article_text(url, file_save_name=None):
 
     response = requests.get(url)
