@@ -18,3 +18,14 @@ The following models can be leveraged with no restrictions. They can also be lev
 - Model has 46B parameters but only requires 12.9B for inference
 - Better performance for fast inference
 - Outperforms LLaMa 2 (70B params) and GPT-3.5 in most benchmarks with 8X faster inference than LLaMa 2
+
+## Optimized enterprise grade models
+- Mistral Small is the best for low latency use cases.
+- Mistral Medium is suitable for all language-based tasks that only require moderate reasoning such as Data Extraction, Summarization and Email writing.
+- Mistral large the the flagship model for most sophisticated needs with advanced reasoning capabilities. 
+    - Mistral Large approaches the performance of GPT4 
+    - Has multi-lingual support in English, French, Spanish, German and Italian with a nuanced understanding for grammar and cultural context. (Outperforms LLaMA 2 70B in many multi-lingual tasks in the specified languages)
+    - 32K context window (applies to all enterprise grade models)
+    - Its precise instruction-following enables developers to design their moderation policies
+    - It is natively capable of function calling. This, along with constrained output model, implemented on La Plateforme, enables application development and tech stack modernization at scale
+- Lastly, Mistral offers an embedding model that can be used for many use cases such as clustering and classification. 
