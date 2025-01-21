@@ -49,3 +49,11 @@ By the end of this course, you’ll be equipped to:
 - [Mistral AI Documentation](https://mistral.ai/docs)
 - [DeepLearning.AI](https://www.deeplearning.ai/)
 - [Hugging Face](https://huggingface.co/)
+
+## License
+
+This repository is provided for educational purposes.
+
+---
+
+Happy learning!
