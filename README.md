@@ -15,3 +15,15 @@ In this course, you’ll access Mistral AI’s collection of open-source and com
      - **Medium**: Email writing
      - **Advanced**: Coding
    - Consider speed requirements to choose the appropriate model.
+
+2. **Function Calling**
+   - Learn to use Mistral’s native function calling.
+   - Enable LLMs to perform tasks better suited for traditional code, such as querying databases for numerical data.
+   
+3. **Retrieval Augmented Generation (RAG)**
+   - Build a basic RAG system from scratch with similarity search.
+   - Properly chunk data, create embeddings, and implement RAG as a function in your chat system.
+
+4. **Interactive Chat Interface**
+   - Build a chat interface to interact with Mistral models.
+   - Ask questions about a document you upload.
