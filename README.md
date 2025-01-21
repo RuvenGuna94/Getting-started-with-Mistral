@@ -34,3 +34,12 @@ By the end of this course, you’ll be equipped to:
 - Effectively leverage Mistral AI’s open-source and commercial models.
 - Build scalable and efficient systems for various use cases.
 - Implement advanced techniques like RAG and function calling.
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RuvenGuna94/Getting-started-with-Mistral.git
+   cd Getting-started-with-Mistral
+   ```
+2. Follow the provided notebooks to explore Mistral AI's capabilities.
