@@ -27,3 +27,10 @@ In this course, you’ll access Mistral AI’s collection of open-source and com
 4. **Interactive Chat Interface**
    - Build a chat interface to interact with Mistral models.
    - Ask questions about a document you upload.
+
+## Course Objectives
+
+By the end of this course, you’ll be equipped to:
+- Effectively leverage Mistral AI’s open-source and commercial models.
+- Build scalable and efficient systems for various use cases.
+- Implement advanced techniques like RAG and function calling.
