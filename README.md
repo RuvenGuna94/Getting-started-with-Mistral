@@ -43,3 +43,9 @@ By the end of this course, you’ll be equipped to:
    cd Getting-started-with-Mistral
    ```
 2. Follow the provided notebooks to explore Mistral AI's capabilities.
+
+## Additional Resources
+
+- [Mistral AI Documentation](https://mistral.ai/docs)
+- [DeepLearning.AI](https://www.deeplearning.ai/)
+- [Hugging Face](https://huggingface.co/)
